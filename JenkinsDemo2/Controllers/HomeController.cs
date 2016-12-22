@@ -16,7 +16,7 @@ namespace JenkinsDemo2.Controllers
             int A = obj.value1 = 2;
             int B = obj.value2 = 3;
 
-            obj.output = (A * B)/0;
+            obj.output = (A * B/2)/0;
 
 
             return View(obj);
