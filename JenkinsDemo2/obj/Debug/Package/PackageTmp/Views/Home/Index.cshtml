@@ -1,0 +1,28 @@
+﻿@model JenkinsDemo2.Models.Home
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @using (@Html.BeginForm("FormProcess", "Home", FormMethod.Post))
+    {
+    <div>
+        Data A = @Html.TextBoxFor(a => a.value1)<br />
+        Data B = @Html.TextBoxFor(a => a.value2)<br />
+        <br />
+
+        output  @Html.TextBoxFor(a => a.output)
+
+        <input type="submit" value="submit" />
+
+    </div>
+    }
+</body>
+</html>
