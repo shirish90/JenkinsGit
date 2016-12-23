@@ -14,7 +14,7 @@ namespace JenkinsDemo2.Controllers
         {
             Home obj = new Home();
             int A = obj.value1 = 2;
-            int B = obj.value2 = 5;
+            int B = obj.value2 = 3;
 
             obj.output = A * B;
 
