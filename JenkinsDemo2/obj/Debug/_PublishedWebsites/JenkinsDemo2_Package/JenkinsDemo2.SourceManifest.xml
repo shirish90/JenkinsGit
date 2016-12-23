@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<sitemanifest>
-  <IisApp path="D:\ShirishWork\JenkinsDemo2\JenkinsDemo2\obj\DEBUG\Package\PackageTmp" managedRuntimeVersion="v4.0" />
-  <setAcl path="D:\ShirishWork\JenkinsDemo2\JenkinsDemo2\obj\DEBUG\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="D:\ShirishWork\JenkinsDemo2\JenkinsDemo2\obj\DEBUG\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
-</sitemanifest>
